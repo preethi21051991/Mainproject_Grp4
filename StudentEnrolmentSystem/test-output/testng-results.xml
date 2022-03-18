@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="37" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-14T13:31:21 IST" name="Suite" finished-at="2022-03-14T13:38:07 IST" duration-ms="406105">
+    <groups>
+    </groups>
+    <test started-at="2022-03-14T13:31:21 IST" name="StudTest" finished-at="2022-03-14T13:38:07 IST" duration-ms="406105">
+      <class name="com.studennrol.testscripts.StudNewRegistrPageTest">
+        <test-method signature="verifyStudNewRegitrPage()[pri:0, instance:com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd]" started-at="2022-03-14T13:31:31 IST" name="verifyStudNewRegitrPage" finished-at="2022-03-14T13:31:35 IST" duration-ms="3274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudNewRegitrPage -->
+        <test-method signature="regNewStudPageTitlTxtVerify()[pri:1, instance:com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd]" started-at="2022-03-14T13:31:35 IST" name="regNewStudPageTitlTxtVerify" finished-at="2022-03-14T13:31:38 IST" duration-ms="3114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regNewStudPageTitlTxtVerify -->
+        <test-method signature="verifyLoginPage()[pri:2, instance:com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd]" started-at="2022-03-14T13:31:38 IST" name="verifyLoginPage" finished-at="2022-03-14T13:31:41 IST" duration-ms="3147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="regNewStudPageDetailsWithInvaldData()[pri:3, instance:com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd]" started-at="2022-03-14T13:31:41 IST" name="regNewStudPageDetailsWithInvaldData" finished-at="2022-03-14T13:32:31 IST" duration-ms="49942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regNewStudPageDetailsWithInvaldData -->
+        <test-method signature="regNewStudPageDetailsWithValidData()[pri:4, instance:com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd]" started-at="2022-03-14T13:32:31 IST" name="regNewStudPageDetailsWithValidData" finished-at="2022-03-14T13:33:19 IST" duration-ms="48335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regNewStudPageDetailsWithValidData -->
+      </class> <!-- com.studennrol.testscripts.StudNewRegistrPageTest -->
+      <class name="com.studennrol.testscripts.StudDetailsPageTest">
+        <test-method signature="verifyStudDetailsPageAftrLogin()[pri:1, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:34:44 IST" name="verifyStudDetailsPageAftrLogin" finished-at="2022-03-14T13:34:47 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudDetailsPageAftrLogin -->
+        <test-method signature="UpdateBtnClick()[pri:2, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:34:47 IST" name="UpdateBtnClick" finished-at="2022-03-14T13:34:53 IST" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateBtnClick -->
+        <test-method signature="validateExistingDataFrmUpdateStdPge()[pri:3, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:34:53 IST" name="validateExistingDataFrmUpdateStdPge" finished-at="2022-03-14T13:35:31 IST" duration-ms="37381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateExistingDataFrmUpdateStdPge -->
+        <test-method signature="updateNonMandatoryStudDetails()[pri:4, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:35:31 IST" name="updateNonMandatoryStudDetails" finished-at="2022-03-14T13:35:40 IST" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateNonMandatoryStudDetails -->
+        <test-method signature="validateNonMandtryStudDetAftrUpdate()[pri:5, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:35:40 IST" name="validateNonMandtryStudDetAftrUpdate" finished-at="2022-03-14T13:35:49 IST" duration-ms="9465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNonMandtryStudDetAftrUpdate -->
+        <test-method signature="UpdateStudData()[pri:6, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:35:49 IST" name="UpdateStudData" finished-at="2022-03-14T13:36:35 IST" duration-ms="45526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateStudData -->
+        <test-method signature="validateMandtryStudDetAftrUpdate()[pri:7, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:36:35 IST" name="validateMandtryStudDetAftrUpdate" finished-at="2022-03-14T13:37:16 IST" duration-ms="40587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMandtryStudDetAftrUpdate -->
+        <test-method signature="UpdateStudDataBackToNormal()[pri:8, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:37:16 IST" name="UpdateStudDataBackToNormal" finished-at="2022-03-14T13:38:01 IST" duration-ms="45449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateStudDataBackToNormal -->
+        <test-method signature="LogedOut()[pri:9, instance:com.studennrol.testscripts.StudDetailsPageTest@312aa7c]" started-at="2022-03-14T13:38:01 IST" name="LogedOut" finished-at="2022-03-14T13:38:07 IST" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogedOut -->
+      </class> <!-- com.studennrol.testscripts.StudDetailsPageTest -->
+      <class name="com.studennrol.testscripts.StudLoginPageTest">
+        <test-method signature="verifyLoginPage()[pri:0, instance:com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7]" started-at="2022-03-14T13:33:19 IST" name="verifyLoginPage" finished-at="2022-03-14T13:33:22 IST" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method signature="verifyInvalidCredential()[pri:1, instance:com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7]" started-at="2022-03-14T13:33:22 IST" name="verifyInvalidCredential" finished-at="2022-03-14T13:33:35 IST" duration-ms="12747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredential -->
+        <test-method signature="verifyInvalidPassword()[pri:2, instance:com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7]" started-at="2022-03-14T13:33:35 IST" name="verifyInvalidPassword" finished-at="2022-03-14T13:33:48 IST" duration-ms="12532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method signature="verifyInvalidUsername()[pri:3, instance:com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7]" started-at="2022-03-14T13:33:48 IST" name="verifyInvalidUsername" finished-at="2022-03-14T13:34:00 IST" duration-ms="12481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method signature="verifyValidLogin()[pri:4, instance:com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7]" started-at="2022-03-14T13:34:00 IST" name="verifyValidLogin" finished-at="2022-03-14T13:34:10 IST" duration-ms="9498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+      </class> <!-- com.studennrol.testscripts.StudLoginPageTest -->
+      <class name="com.studennrol.testscripts.HomePageTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.studennrol.testscripts.HomePageTest@2a693f59]" started-at="2022-03-14T13:31:21 IST" name="browserSetup" finished-at="2022-03-14T13:31:25 IST" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:com.studennrol.testscripts.HomePageTest@2a693f59]" started-at="2022-03-14T13:31:25 IST" name="verifyHomePage" finished-at="2022-03-14T13:31:28 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method signature="verifyLoginPage()[pri:1, instance:com.studennrol.testscripts.HomePageTest@2a693f59]" started-at="2022-03-14T13:31:28 IST" name="verifyLoginPage" finished-at="2022-03-14T13:31:31 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.studennrol.testscripts.HomePageTest@2a693f59]" started-at="2022-03-14T13:38:07 IST" name="quitBrowser" finished-at="2022-03-14T13:38:07 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.studennrol.testscripts.HomePageTest -->
+      <class name="com.studennrol.testscripts.StudHomePageTest">
+        <test-method signature="verifyHomePageAftrLogin()[pri:0, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:10 IST" name="verifyHomePageAftrLogin" finished-at="2022-03-14T13:34:16 IST" duration-ms="6131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageAftrLogin -->
+        <test-method signature="verifyCoursePageAftrLogin()[pri:1, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:16 IST" name="verifyCoursePageAftrLogin" finished-at="2022-03-14T13:34:22 IST" duration-ms="6255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCoursePageAftrLogin -->
+        <test-method signature="verifyCourseName()[pri:2, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:22 IST" name="verifyCourseName" finished-at="2022-03-14T13:34:25 IST" duration-ms="3057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCourseName -->
+        <test-method signature="KnowMorebtn()[pri:3, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:25 IST" name="KnowMorebtn" finished-at="2022-03-14T13:34:28 IST" duration-ms="3174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KnowMorebtn -->
+        <test-method signature="CourseEnrollnowbtn()[pri:4, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:28 IST" name="CourseEnrollnowbtn" finished-at="2022-03-14T13:34:31 IST" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseEnrollnowbtn -->
+        <test-method signature="returnToHomePage()[pri:5, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:31 IST" name="returnToHomePage" finished-at="2022-03-14T13:34:35 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- returnToHomePage -->
+        <test-method signature="showMoreCoursebtnFrmHomePge()[pri:6, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:35 IST" name="showMoreCoursebtnFrmHomePge" finished-at="2022-03-14T13:34:38 IST" duration-ms="3083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showMoreCoursebtnFrmHomePge -->
+        <test-method signature="verifyStudentDetailsPageAftrLogin()[pri:7, instance:com.studennrol.testscripts.StudHomePageTest@c430e6c]" started-at="2022-03-14T13:34:38 IST" name="verifyStudentDetailsPageAftrLogin" finished-at="2022-03-14T13:34:44 IST" duration-ms="6379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStudentDetailsPageAftrLogin -->
+      </class> <!-- com.studennrol.testscripts.StudHomePageTest -->
+    </test> <!-- StudTest -->
+  </suite> <!-- Suite -->
+</testng-results>

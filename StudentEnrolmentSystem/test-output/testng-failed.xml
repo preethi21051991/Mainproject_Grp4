@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="StudTest(failed)">
+    <classes>
+      <class name="com.studennrol.testscripts.StudHomePageTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="browserSetup"/>
+          <include name="verifyCourseName"/>
+        </methods>
+      </class> <!-- com.studennrol.testscripts.StudHomePageTest -->
+    </classes>
+  </test> <!-- StudTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

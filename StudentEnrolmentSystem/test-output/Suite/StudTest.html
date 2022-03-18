@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  StudTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>StudTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 14 13:31:21 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>406 seconds (406105 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.updateNonMandatoryStudDetails()'><b>updateNonMandatoryStudDetails</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudNewRegistrPageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.studennrol.testscripts.StudNewRegistrPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.validateNonMandtryStudDetAftrUpdate()'><b>validateNonMandtryStudDetAftrUpdate</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.validateExistingDataFrmUpdateStdPge()'><b>validateExistingDataFrmUpdateStdPge</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>37</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.HomePageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.studennrol.testscripts.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.HomePageTest@2a693f59</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.UpdateStudDataBackToNormal()'><b>UpdateStudDataBackToNormal</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>45</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.verifyStudDetailsPageAftrLogin()'><b>verifyStudDetailsPageAftrLogin</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.LogedOut()'><b>LogedOut</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudLoginPageTest.verifyLoginPage()'><b>verifyLoginPage</b><br>Test class: com.studennrol.testscripts.StudLoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.returnToHomePage()'><b>returnToHomePage</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.verifyStudentDetailsPageAftrLogin()'><b>verifyStudentDetailsPageAftrLogin</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>6</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.HomePageTest.verifyHomePage()'><b>verifyHomePage</b><br>Test class: com.studennrol.testscripts.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.HomePageTest@2a693f59</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.KnowMorebtn()'><b>KnowMorebtn</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudLoginPageTest.verifyInvalidPassword()'><b>verifyInvalidPassword</b><br>Test class: com.studennrol.testscripts.StudLoginPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudNewRegistrPageTest.regNewStudPageDetailsWithInvaldData()'><b>regNewStudPageDetailsWithInvaldData</b><br>Test class: com.studennrol.testscripts.StudNewRegistrPageTest</td>
+<td></td>
+<td>49</td>
+<td>com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudNewRegistrPageTest.regNewStudPageTitlTxtVerify()'><b>regNewStudPageTitlTxtVerify</b><br>Test class: com.studennrol.testscripts.StudNewRegistrPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.CourseEnrollnowbtn()'><b>CourseEnrollnowbtn</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.verifyCoursePageAftrLogin()'><b>verifyCoursePageAftrLogin</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>6</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudLoginPageTest.verifyInvalidCredential()'><b>verifyInvalidCredential</b><br>Test class: com.studennrol.testscripts.StudLoginPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudNewRegistrPageTest.regNewStudPageDetailsWithValidData()'><b>regNewStudPageDetailsWithValidData</b><br>Test class: com.studennrol.testscripts.StudNewRegistrPageTest</td>
+<td></td>
+<td>48</td>
+<td>com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.validateMandtryStudDetAftrUpdate()'><b>validateMandtryStudDetAftrUpdate</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>40</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.UpdateStudData()'><b>UpdateStudData</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>45</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudDetailsPageTest.UpdateBtnClick()'><b>UpdateBtnClick</b><br>Test class: com.studennrol.testscripts.StudDetailsPageTest</td>
+<td></td>
+<td>6</td>
+<td>com.studennrol.testscripts.StudDetailsPageTest@312aa7c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.verifyHomePageAftrLogin()'><b>verifyHomePageAftrLogin</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>6</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.verifyCourseName()'><b>verifyCourseName</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudNewRegistrPageTest.verifyStudNewRegitrPage()'><b>verifyStudNewRegitrPage</b><br>Test class: com.studennrol.testscripts.StudNewRegistrPageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudNewRegistrPageTest@52f27fbd</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudLoginPageTest.verifyValidLogin()'><b>verifyValidLogin</b><br>Test class: com.studennrol.testscripts.StudLoginPageTest</td>
+<td></td>
+<td>9</td>
+<td>com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudHomePageTest.showMoreCoursebtnFrmHomePge()'><b>showMoreCoursebtnFrmHomePge</b><br>Test class: com.studennrol.testscripts.StudHomePageTest</td>
+<td></td>
+<td>3</td>
+<td>com.studennrol.testscripts.StudHomePageTest@c430e6c</td></tr>
+<tr>
+<td title='com.studennrol.testscripts.StudLoginPageTest.verifyInvalidUsername()'><b>verifyInvalidUsername</b><br>Test class: com.studennrol.testscripts.StudLoginPageTest</td>
+<td></td>
+<td>12</td>
+<td>com.studennrol.testscripts.StudLoginPageTest@4d0d9fe7</td></tr>
+</table><p>
+</body>
+</html>
