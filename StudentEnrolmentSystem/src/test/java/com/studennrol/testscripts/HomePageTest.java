@@ -10,7 +10,7 @@ public class HomePageTest extends TestBase
 {
 	HomePage objHomePg;
 
-	// Verify Student Enrollment System Home Page
+	// Verify Student Enrollment System Home Page.
 	@Test(priority=0)
 	public void verifyHomePage() throws Exception
 	{
